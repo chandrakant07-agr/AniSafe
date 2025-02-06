@@ -1,0 +1,68 @@
+.nav-container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-center>a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.nav-center>a:hover{
+    opacity: 0.7;
+}
+
+.nav-bottom>button{
+    padding: 5px 10px;
+    border: none;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#login{
+    border: 2px solid rgb(250, 175, 45);
+    background-color: transparent;
+}
+
+#login:hover{
+    background-color: rgb(250, 175, 45);
+}
+
+#signup{
+    background-color: rgb(250, 175, 45);
+    border: 2px solid rgb(250, 175, 45);
+    margin-right: 50px;
+}
+
+#signup:hover{
+    background-color: transparent;
+}
+
+.nav-bottom>i{
+    margin-right: 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.nav-bottom>i:hover{
+    opacity: 0.7;
+}
+
+.nav-left{
+    margin-left: 50px;
+}
+
+.nav-left>i{
+    font-size: 40px;
+    color: rgb(250, 175, 45);
+}
+
+.nav-left>span{
+    font-weight: 500;
+}

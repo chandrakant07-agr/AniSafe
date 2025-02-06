@@ -1,0 +1,56 @@
+.seactionone-text > a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    background-color: orangered;
+}
+
+.seactionone-text > a:hover {
+    opacity: 0.8;
+}
+
+.seactionone-text {
+    font-size: 18px;
+    width: 50%;
+}
+
+.sectionone-heading {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+.sectionone-container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    width: 90%;
+    margin-bottom: 0; 
+    padding-bottom: 0; 
+}
+
+.sectionone-container2 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.seactionone-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding-bottom: 0;
+}
+
+.seactionone-img > img {
+    width: 100%; 
+    max-width: 450px;
+    border-radius: 10px;
+}

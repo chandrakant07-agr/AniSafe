@@ -1,0 +1,42 @@
+.header-container{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-img{
+    background-image: url('../assets/pet-header.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-img>.button{
+    padding: 15px 30px;
+    border: none;
+    margin: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    margin-left: 50px;
+}
+
+.header-img>.button:hover{
+    opacity: 0.8;
+}
+
+.header-img>p{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-left: 50px;
+}

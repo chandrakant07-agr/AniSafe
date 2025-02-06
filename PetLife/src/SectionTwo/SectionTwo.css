@@ -1,0 +1,56 @@
+.sectiontwo-container1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.sectiontwo-heading {
+    font-size: 40px;
+    font-weight: 500;
+    width: 90%; 
+    margin-bottom: 30px;
+}
+
+.sectiontwo-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.seactiontwo-img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.seactiontwo-img>img{
+    height: 65%;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.sectiontwo-text {
+    font-size: 18px;
+    width: 50%;
+}
+
+.sectiontwo-text > a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    background-color: orangered;
+}
+
+.sectiontwo-text > a:hover {
+    opacity: 0.8;
+}
