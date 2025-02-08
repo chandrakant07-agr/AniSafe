@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import './AdoptCard.css'
 
 function AdoptCard() {
   const [pets, setPets] = useState([]);
@@ -16,22 +17,28 @@ function AdoptCard() {
   
 
   return (
-    <div>
-      <h1>Available Pets for Adoption</h1>
+    <>
+    <hr />
+    <div className="available-container">
+    <div className="availablepet">
       {pets.length === 0 ? (
         <p>No pets available for adoption at the moment.</p>
       ) : (
         <ul>
           {pets.map((pet) => (
+            <div className="adoptcard">
             <li key={pet._id}>
-              <img src={pet.pet_image} alt={pet.pet_name} />
+              <img src={pet.pet_image} alt={pet.pet_name} className="availablepetimg"/>
               <h2>{pet.pet_name}</h2>
-              <p>{pet.city}</p>
+              <p>{pet.gender} ({pet.animal_type})</p>
             </li>
+            </div>
           ))}
         </ul>
       )}
     </div>
+    </div>
+    </>
   );
 }
 

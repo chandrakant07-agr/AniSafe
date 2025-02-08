@@ -8,6 +8,22 @@ export const petData = [
       "animal_type": "Dog"
     },
     {
+      "pet_image": "https://worlddeer.org/wp-content/uploads/2024/07/American-Rabbit-A-Unique-Breed-with-a-Rich-Heritage.jpg",
+      "pet_name": "patlu",
+      "gender": "Male",
+      "city": "dholpur",
+      "contact_number": "9576743226",
+      "animal_type": "rabbit"
+    },
+    {
+      "pet_image": "https://www.thesprucepets.com/thmb/tHlwzcOxzqH6KQyxtUQrU2Aw5IE=/2121x0/filters:no_upscale():strip_icc()/GettyImages-136483182-241a399c9e434c189feec1efc812bee4.jpg",
+      "pet_name": "motu",
+      "gender": "Male",
+      "city": "dholpur",
+      "contact_number": "9876948216",
+      "animal_type": "rabbit"
+    },
+    {
       "pet_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG87Bo3kWEFHjrwJWJhKRrk8NRsbYwK2VyqA&s",
       "pet_name": "Bella",
       "gender": "Female",
