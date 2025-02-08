@@ -1,5 +1,5 @@
 import './SectionThree.css'
-import petCare from '../assets/pet-care.webp';
+import petCare from '../../assets/pet-care.webp';
 
 function SectionThree() {
     return (
@@ -15,7 +15,7 @@ function SectionThree() {
                         ✔️ Support adoption initiatives, bringing them into loving homes <br />
                         Your actions could change their world. A simple gesture, like placing a roti for a hungry dog, can go a long way. Join us in making a difference today! 🐶💖 <br />
                         👉 Act Now, Be a Hero for a Street Dog 💕 <br />
-                        <a href="">Help a Street Dog Now!!!</a>
+                        <a href="/Help">Help a Street Dog Now!!!</a>
                     </div>
                     <div className="sectionthree-img">
                         <img src={petCare} alt="pet-care" />

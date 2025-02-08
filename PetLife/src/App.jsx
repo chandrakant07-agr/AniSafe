@@ -1,23 +1,55 @@
-import './App.css'
-import Header from './header/Header'
-import NavBar from  './navbar/navbar'
-import SectionOne from  './SectionOne/SectionOne'
-import SectionTwo from  './SectionTwo/SectionTwo'
-import SectionThree from './SectionThree/SectionThree'
-import Footer from './Footer/Footer'
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
+import Home from './Home/Home'
+import Adopt from "./Adopt/Adopt";
+import Help from "./Help/Help"
+import Donate from "./Donate/Donate"
+
 
 function App() {
-
   return (
-    <>
-      <NavBar />
-      <Header />
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
-      <Footer />
-    </>
-  )
+    <Router>
+      <Routes>
+        {/* Home Route */}
+        <Route
+          path="/"
+          element={
+            <>
+              < Home />
+            </>
+          }
+        />
+
+        {/* AdoptPet Route */}
+        <Route
+          path="/adoptpet"
+          element={
+            <>
+              <Adopt />
+            </>
+          }
+        />
+        {/* Donate Route */}
+        <Route
+          path="/Donate"
+          element={
+            <>
+              < Donate />
+            </>
+          }
+        />
+        {/* Help Route */}
+        <Route
+          path="/Help"
+          element={
+            <>
+              < Help />
+            </>
+          }
+        />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;

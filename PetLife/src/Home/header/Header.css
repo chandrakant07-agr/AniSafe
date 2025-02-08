@@ -6,7 +6,7 @@
     justify-content: center;
 }
 .header-img{
-    background-image: url('../assets/pet-header.jpg');
+    background-image: url('../../assets/pet-header.jpg');
     background-size: cover;
     height: 100%;
     width: 90%;

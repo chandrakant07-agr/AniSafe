@@ -1,5 +1,6 @@
 import './SectionOne.css';
-import petImage from '../assets/pet-adoption.jpg';
+import petImage from "../../assets/pet-adoption.jpg";
+
 
 function SectionOne() {
     return (
@@ -17,7 +18,7 @@ function SectionOne() {
                         Thousands of adorable pets are waiting for someone like you. <br />
                         Open your heart and adopt today! 🏡💕 <br />
                         👉 Start Your Adoption Journey Now 💕 <br />
-                        <a href="">Adopt a Pet!!!</a>
+                        <a href="/AdoptPet">Adopt a Pet!!!</a>
                     </div>
                     <div className="seactionone-img">
                         <img src={petImage} alt="pet-adoption" />
