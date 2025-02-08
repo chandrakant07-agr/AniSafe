@@ -4,7 +4,7 @@ import Home from './Home/Home'
 import Adopt from "./Adopt/Adopt";
 import Help from "./Help/Help"
 import Donate from "./Donate/Donate"
-
+import ShowAdopt from "./ShowAdopt/ShowAdopt"
 
 function App() {
   return (
@@ -14,9 +14,7 @@ function App() {
         <Route
           path="/"
           element={
-            <>
-              < Home />
-            </>
+            <Home />
           }
         />
 
@@ -24,27 +22,31 @@ function App() {
         <Route
           path="/adoptpet"
           element={
-            <>
-              <Adopt />
-            </>
+            <Adopt />
           }
         />
+
+        {/* AdoptPet Show Route (correct route for :id) */}
+        <Route 
+          path="/adoptpet/:id" 
+          element={
+            <ShowAdopt />
+          } 
+        />
+
         {/* Donate Route */}
         <Route
-          path="/Donate"
+          path="/donate"
           element={
-            <>
-              < Donate />
-            </>
+            <Donate />
           }
         />
+
         {/* Help Route */}
         <Route
-          path="/Help"
+          path="/help"
           element={
-            <>
-              < Help />
-            </>
+            <Help />
           }
         />
       </Routes>

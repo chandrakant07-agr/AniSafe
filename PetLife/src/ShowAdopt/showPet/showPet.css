@@ -1,0 +1,78 @@
+/* Main container for the pet details page */
+.show-adopt-container {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Horizontal line to separate content */
+  .show-adopt-container hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+  }
+  
+  /* Pet details section */
+  .pet-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Pet name styling */
+  .pet-details h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Pet image styling */
+  .pet-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Pet info section */
+  .pet-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Styling for each info paragraph */
+  .pet-info p {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  /* Contact and city info styling */
+  .pet-info p:nth-child(2),
+  .pet-info p:nth-child(3) {
+    font-weight: bold;
+  }
+  
+  /* A simple button for action (like adopting the pet) */
+  .pet-info button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pet-info button:hover {
+    background-color: #2980b9;
+  }
+  
