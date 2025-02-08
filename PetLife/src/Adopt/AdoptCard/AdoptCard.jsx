@@ -30,7 +30,7 @@ function AdoptCard() {
             <li key={pet._id}>
               <img src={pet.pet_image} alt={pet.pet_name} className="availablepetimg"/>
               <h2>{pet.pet_name}</h2>
-              <p>{pet.gender} ({pet.animal_type})</p>
+              <p>{pet.animal_type} ({pet.gender})</p>
             </li>
             </div>
           ))}
