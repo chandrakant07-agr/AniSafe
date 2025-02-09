@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';  // Importing cors
 
-import Pet from './schema.js';  
+import Pet from '../../backend/init/schema.js';  
 
 const app = express();
 const port = 8000;

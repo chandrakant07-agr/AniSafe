@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-import { petData } from "./data.js";  
-import Pet from "./schema.js";  
+import { petData } from "../../backend/init/data.js";  
+import Pet from "../../backend/init/schema.js";  
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/AniSafe";
 
