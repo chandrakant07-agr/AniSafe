@@ -1,5 +1,5 @@
 import './SectionTwo.css'
-import petHelp from '../../assets/pet-help.webp';
+import petHelp from '../../../assets/images/pet-help.webp';
 
 function SectionTwo(){
     return(

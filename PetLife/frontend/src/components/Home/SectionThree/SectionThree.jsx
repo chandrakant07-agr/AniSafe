@@ -1,5 +1,5 @@
 import './SectionThree.css'
-import petCare from '../../assets/pet-care.webp';
+import petCare from '../../../assets/images/pet-care.webp';
 
 function SectionThree() {
     return (

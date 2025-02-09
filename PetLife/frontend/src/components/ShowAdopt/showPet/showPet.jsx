@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { useFetchPets } from '../../hooks/useFetchPets';
+import { useFetchPets } from '../../../hooks/useFetchPets';
 import './showPet.css';
 
 function ShowPet() {

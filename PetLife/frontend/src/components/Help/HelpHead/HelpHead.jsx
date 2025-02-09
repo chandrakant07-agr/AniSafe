@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import helppet1 from '../../assets/helppet1.jpg';
-import helppet2 from '../../assets/helppet2.avif';
-import helppet3 from '../../assets/helppet3.jpg';
+import helppet1 from '../../../assets/images/helppet1.jpg';
+import helppet2 from '../../../assets/images/helppet2.avif';
+import helppet3 from '../../../assets/images/helppet3.jpg';
 import './HelpHead.css'
 
 function HelpHead() {
