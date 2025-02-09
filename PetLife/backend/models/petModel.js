@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const petSchema = new mongoose.Schema(
+const PetSchema = new mongoose.Schema(
   {
     _id: mongoose.Schema.Types.ObjectId,
     pet_image: {
@@ -13,19 +13,20 @@ const petSchema = new mongoose.Schema(
     },
     gender: {
       type: String,
-      required: true  
+      required: true,
+      enum: ["Male", "Female"],
     },
     city: {
       type: String,
-      required: true  
+      required: true
     },
     contact_number: {
-      type: String,
-      required: true  
+      type: Number,
+      required: true
     },
     animal_type: {
       type: String,
-      required: true  
+      required: true
     }
   },
   {
@@ -33,4 +34,6 @@ const petSchema = new mongoose.Schema(
   }
 );
 
-export default mongoose.model("Pet", petSchema);
+const Pet = mongoose.model("pet", PetSchema);
+
+export default Pet;
