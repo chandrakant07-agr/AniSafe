@@ -1,0 +1,34 @@
+.pet-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+  }
+  
+  .pet-selector-container select {
+    width: 250px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #00aaff;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .pet-selector-container select:focus {
+    border-color: #0077cc;
+    box-shadow: 0 0 5px rgba(0, 170, 255, 0.5);
+  }
+  
+  .pet-selector-container select option {
+    font-size: 14px;
+    padding: 5px;
+  }
+  
+  .pet-selector-container h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  

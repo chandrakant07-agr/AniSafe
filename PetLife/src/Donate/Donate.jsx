@@ -1,10 +1,11 @@
 import NavBar from "../BoilerPlate/navbar/navbar"
 import Footer from "../BoilerPlate/Footer/Footer"
+import DonateCard from "./DonateCard/DonateCard"
 export default function Donate(){
     return(
         <>
         < NavBar />
-        <h1>Donate Route</h1>
+        <DonateCard />
         < Footer />
         </>
     )

@@ -5,7 +5,7 @@ import cors from 'cors';  // Importing cors
 import Pet from './schema.js';  
 
 const app = express();
-const port = 5000;
+const port = 8000;
 
 // Enable CORS for all requests
 app.use(cors());
