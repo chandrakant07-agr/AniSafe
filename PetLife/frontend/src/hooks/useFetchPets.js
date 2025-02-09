@@ -5,7 +5,7 @@ export function useFetchPets() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/pets")
+    fetch("http://localhost:8080/api/pets")
       .then((response) => response.json())
       .then((data) => {
         setPets(data);
