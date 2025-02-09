@@ -1,4 +1,4 @@
-import { useFetchPets } from "../../hooks/useFetchPets";
+import { useFetchPets } from "../../../hooks/useFetchPets";
 import { useNavigate } from "react-router-dom";
 import './AdoptCard.css';
 

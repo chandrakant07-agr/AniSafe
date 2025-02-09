@@ -1,5 +1,5 @@
 import './SectionOne.css';
-import petImage from "../../assets/pet-adoption.jpg";
+import petImage from "../../../assets/images/pet-adoption.jpg";
 
 
 function SectionOne() {

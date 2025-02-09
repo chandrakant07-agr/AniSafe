@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
-import Home from './Home/Home'
-import Adopt from "./Adopt/Adopt";
-import Help from "./Help/Help"
-import Donate from "./Donate/Donate"
-import ShowAdopt from "./ShowAdopt/ShowAdopt"
+import Home from './components/Home/Home'
+import Adopt from "./components/Adopt/Adopt";
+import Help from "./components/Help/Help"
+import Donate from "./components/Donate/Donate"
+import ShowAdopt from "./components/ShowAdopt/ShowAdopt"
 
 function App() {
   return (

@@ -1,7 +1,10 @@
+import express from "express";
 import mongoose from "mongoose";
-import { petData } from "../../backend/init/data.js";  
-import Pet from "../../backend/init/schema.js";  
+import { petData } from "./init/data.js";  
+import Pet from "./init/schema.js";  
 
+const app = express()
+const PORT = 8080
 const MONGO_URL = "mongodb://127.0.0.1:27017/AniSafe";
 
 
@@ -31,3 +34,5 @@ const initDB = async () => {
     console.log("Error initializing data:", err);
   }
 };
+
+app.listen(PORT, () => console.log(`server is listening at http://localhost:${PORT}`));
